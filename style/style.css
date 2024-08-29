@@ -38,3 +38,19 @@
 	padding: 7px 10px;
 	border: none;
 }
+.img img {
+	background-color: red;
+	margin-top: 70px;
+	border-radius: 200px;
+}
+.make{
+    color: #4D77FF;
+	margin-top: 60px;
+	margin-left: 50px;
+}
+.container--{
+    display: flex;
+}
+.makea{
+	
+}
