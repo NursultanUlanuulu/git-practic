@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 45px;
+}
+.header-icon-text {
+	display: flex;
+	align-items: center;
+}
+.navigation {
+	display: flex;
+}
+.navigation li {
+	margin-left: 40px;
+	list-style: none;
+}
+.signIn {
+	background-color: white;
+	color: black;
+	border-radius: 8px;
+	padding: 7px 10px;
+	border: none;
+}
+.signUp {
+	background-color: #4d77ff;
+	color: white;
+	border-radius: 8px;
+	padding: 7px 10px;
+	border: none;
+}
