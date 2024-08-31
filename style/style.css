@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -59,18 +63,20 @@
 
 .card-text-one {
     font-size: 54px;
-    padding: 184px 0 0 0;
+    padding: 100px 0 0 0;
     width: 634px;
 }
 
 .card-text-one-v2 {
     font-size: 14px;
+    padding-top: 26px;
 }
 
 .card-button {
     border-radius: 5px;
-    padding: 2px 2px;
+    padding: 10px 10px;
     background: #4D77FF;
     border: none;
     color: white;
+    margin-top: 20px;
 }
