@@ -1,40 +1,82 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
-	width: 1200px;
-	margin: 0 auto;
+    width: 1200px;
+    margin: 0 auto;
 }
+
 .header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
 }
+
 .header-icon-text {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
 }
+
 .navigation {
-	display: flex;
+    display: flex;
 }
+
 .navigation li {
-	margin-left: 40px;
-	list-style: none;
+    margin-left: 40px;
+    list-style: none;
 }
+
 .signIn {
-	background-color: white;
-	color: black;
-	border-radius: 8px;
-	padding: 7px 10px;
-	border: none;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    padding: 7px 10px;
+    border: none;
 }
+
 .signUp {
-	background-color: #4d77ff;
-	color: white;
-	border-radius: 8px;
-	padding: 7px 10px;
-	border: none;
+    background-color: #4d77ff;
+    color: white;
+    border-radius: 8px;
+    padding: 7px 10px;
+    border: none;
+}
+
+.image {
+    width: 537px;
+    height: 590px;
+    top: 90px;
+    left: 1071px;
+}
+
+.card1 {
+    display: flex;
+}
+
+.card-text-one {
+    font-size: 54px;
+    padding: 100px 0 0 0;
+    width: 634px;
+}
+
+.card-text-one-v2 {
+    font-size: 14px;
+    padding-top: 26px;
+}
+
+.card-button {
+    border-radius: 5px;
+    padding: 10px 10px;
+    background: #4D77FF;
+    border: none;
+    color: white;
+    margin-top: 20px;
 }
